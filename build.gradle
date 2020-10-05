@@ -106,13 +106,13 @@ subprojects {
     }
 
     repositories {
+        mavenLocal()
         mavenCentral()
         maven { url 'https://jpos.org/maven' }
         maven { url 'https://download.oracle.com/maven' }
         maven { url 'https://maven.vaadin.com/vaadin-addons' }
         maven { url 'https://maven.vaadin.com/vaadin-prereleases' }
         jcenter()
-        mavenLocal()
     }
 
     dependencies {
